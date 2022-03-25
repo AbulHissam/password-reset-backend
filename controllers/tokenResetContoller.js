@@ -40,7 +40,7 @@ const requestPasswordReset = asyncHandler(async (req, res, next) => {
 
   //sending reset link
   res.status(200).send({
-    url: `http://localhost:5000/api/auth/resetPassword?token=${resetToken}`,
+    url: `https://password-reset-abh.herokuapp.com/api/auth/resetPassword?token=${resetToken}`,
   });
 });
 
