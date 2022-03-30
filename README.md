@@ -1,4 +1,6 @@
-Deployed url:https://password-reset-abh.herokuapp.com
+## Deployed url:https://password-reset-abh.herokuapp.com
+
+### List of endpoints are listed below:
 
 ```
 Login
